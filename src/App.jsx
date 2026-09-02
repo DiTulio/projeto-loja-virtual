@@ -11,11 +11,11 @@ const App = () => {
   return (
     <div className="app">
       <Header />
-      <HeroSection 
-        titulo ="Ofertas imperdíveis para você"
-        subtitulo = "Até 30% de desconto em produtos selecionados. Aproveite!"
-        textoBotao = "Ver ofertas"
-        imagemHero = {hero}
+      <HeroSection
+        titulo="Ofertas imperdíveis para você"
+        subtitulo="Até 30% de desconto em produtos selecionados. Aproveite!"
+        textoBotao="Ver ofertas"
+        imagemHero={hero}
       />
       <Categories />
       <Products />

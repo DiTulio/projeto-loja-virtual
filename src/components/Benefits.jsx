@@ -19,7 +19,6 @@ const Benefits = () => {
                 <p>Não gostou? Devolva em até 7 dias sem nenhum custo.</p>
             </div>
         </section>
-
     )
 }
 

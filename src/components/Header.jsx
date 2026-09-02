@@ -1,12 +1,14 @@
+import { Link } from "react-router"
+
 const Header = () => {
     return (
         <header className="header">
             <div className="logo">🛍️ ReactShop</div>
 
             <ul className="nav">
-                <li><a href="#produtos">Início</a></li>
-                <li><a href="#produtos">Produtos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><link to="/"></link></li>
+                <li><link to="/produtos">Produtos</link></li>
+                <li><link to="/contato">Contato</link></li>
             </ul>
 
             <div className="header-actions">

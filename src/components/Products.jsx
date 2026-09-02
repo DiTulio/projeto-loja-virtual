@@ -1,4 +1,4 @@
-const Header = () => {
+const Products = () => {
     return (
         <section id="produtos" className="products">
             <h2>Produtos em destaque</h2>
@@ -44,4 +44,4 @@ const Header = () => {
     )
 }
 
-export default Produtos
+export default Products
