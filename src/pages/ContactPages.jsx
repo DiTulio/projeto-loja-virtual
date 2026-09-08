@@ -1,9 +1,7 @@
-const ContactPages = () => {
-  return (
-    <div>
-      <h1> Página de contato </h1>
-    </div>
-  )
+const ContatoPage = () => {
+    return (
+        <h1>Página de Contato</h1>
+    )
 }
 
-export default ContactPages
+export default ContatoPage
