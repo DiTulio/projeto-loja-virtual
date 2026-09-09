@@ -8,9 +8,12 @@ import HeroSection from './components/HeroSection'
 import Products from './components/Products'
 
 const App = () => {
+
+  const [cart, setCart] = useState(0)
+
   return (
     <div className="app">
-      <Header />
+      <Header produtosCarrinhos={cart}/>
       <HeroSection 
         titulo ="Ofertas imperdíveis para você"
         subtitulo = "Até 30% de desconto em produtos selecionados. Aproveite!"
